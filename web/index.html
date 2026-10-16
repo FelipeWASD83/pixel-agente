@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Agente</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main id="palco">
+  <div id="base">
+    <canvas id="regua"></canvas>
+    <canvas id="tela" aria-label="Desenho"></canvas>
+    <canvas id="grade"></canvas>
+    <div id="ultimo" hidden></div>
+  </div>
+</main>
+<aside id="painel">
+  <h1>Pixel Agente <small id="versao"></small></h1>
+  <p id="conexao" class="desconectado">conectando…</p>
+  <dl>
+    <dt>Resolução</dt><dd id="resolucao">–</dd>
+    <dt>Cor atual</dt><dd><span id="amostra"></span> <span id="cor">–</span></dd>
+    <dt>Pintados</dt><dd id="pintados">0</dd>
+    <dt>Mouse</dt><dd id="mouse">–</dd>
+  </dl>
+  <label><input type="checkbox" id="chk-grade" checked> grade</label>
+  <label><input type="checkbox" id="chk-regua" checked> números nas bordas</label>
+  <h2>Comandos</h2>
+  <ol id="log"></ol>
+</aside>
+<script src="app.js"></script>
+</body>
+</html>

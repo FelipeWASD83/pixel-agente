@@ -26,3 +26,7 @@ Para desligar o servidor: `python px.py parar`.
 - "já tem um pixel-agente rodando": a porta 8750 está ocupada, provavelmente
   pelo próprio app. Use a janela que já está aberta ou rode `python px.py parar`.
 - A janela diz "sem conexão": o servidor caiu. Rode `abrir.bat` de novo.
+
+## Licença
+
+Código sob a licença MIT (arquivo `LICENSE`).

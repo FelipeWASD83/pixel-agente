@@ -54,9 +54,13 @@ texto com régua, o que serve até sem ver imagem. **Olhe o resultado de vez em
 quando** em vez de confiar nas coordenadas de cabeça: erro de uma coluna
 estraga o sprite.
 
-Um jeito que funciona bem: escrever o desenho em arte ASCII (uma letra por
-cor), gerar o lote com um scriptzinho e conferir com `ver`. O script é seu, na
-pasta temporária; o app em si só conhece pixel.
+**Regra do Felipe (15/10/2026): nada de pixel art gerada por código.** O agente
+decide e escreve cada comando `pixel x y` com a própria mão, num lote ou
+direto. Proibido usar script, laço, função ou conversor (inclusive arte ASCII
+transformada em comandos por programa) para produzir os pixels. Pode usar o
+`ver`, o `mapa` e o `pegar` para conferir e corrigir, e pode repintar por cima
+com comandos escritos à mão. Fundo de cor única também é pixel por pixel, não
+há balde.
 
 Códigos de saída do `px.py`: 0 deu certo, 1 comando recusado (mensagem
 `erro: ...`), 2 sem servidor.
